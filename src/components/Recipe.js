@@ -5,7 +5,7 @@ const API_KEY = "b2bc039dac04e3cc05fe6ee6a9d71446";
 
 class Recipe extends React.Component {
     state = {
-        activeRecipe: []
+        activeRecipe: [undefined]
     }
     componentDidMount = async () => {
 
