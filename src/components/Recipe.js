@@ -14,7 +14,6 @@ class Recipe extends React.Component {
 
         const res = await req.json();
         this.setState({ activeRecipe: res.recipes[0] });
-        console.log(this.state.activeRecipe)
 
 
 
