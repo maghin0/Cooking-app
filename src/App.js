@@ -11,7 +11,7 @@ const API_KEY = "b2bc039dac04e3cc05fe6ee6a9d71446";
 class App extends Component {
 
   state = {
-    recipes: [undefined]
+    recipes: []
   }
   getRecipe = async (e) => {
     e.preventDefault();
